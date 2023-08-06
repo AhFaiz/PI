@@ -1,0 +1,101 @@
+.navbar {
+  border-bottom: 2px solid black;
+  background-color: #fff;
+}
+.navbar .navigation {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+.navbar .navigation > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.navbar .admin-btn {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+#hero {
+  margin-block: 100px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper .left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.hero-img {
+  height: 30%;
+}
+
+.hero-paragraph {
+  width: 80%;
+  text-align: justify;
+}
+
+#card-section {
+  text-align: center;
+  padding-block: 1.5rem;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin-block: 1rem;
+}
+
+#card-section h1 {
+  margin-bottom: 1rem;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 33px;
+}
+
+.card-wrapper .card-item {
+  width: 20%;
+  height: 20%;
+}
+
+.card-wrapper .card-item > img {
+  width: 100%;
+  height: 100%;
+}
+.card-wrapper .card-item > p {
+  font-size: 20px;
+  margin-top: 21px;
+}
+
+#footer .icon-wrapper {
+  display: flex;
+  gap: 19px;
+}
+#footer .icon-wrapper .icon-item {
+  background-color: rgba(217, 217, 217, 0.52);
+  padding: 12px 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  gap: 5px;
+}
+#footer .icon-wrapper .icon-item > p {
+  text-align: center;
+}
+#footer .f-header {
+  margin-bottom: 94px;
+}
+#footer .f-bottom {
+  margin-top: 112px;
+}
